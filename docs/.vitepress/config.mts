@@ -2,13 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "Xiaoer WANG",
+  description: "Xiaoer WANG",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页 HOME', link: '/' },
+      { text: '技术 TECH', link: '/markdown-examples' },
+      { text: '交易记录 TRADE', link: '/markdown-examples' },
+      { text: '书籍 BOOK', link: '/markdown-examples' },
+      { text: '日常 LIFE', link: '/markdown-examples' },
     ],
 
     sidebar: [
